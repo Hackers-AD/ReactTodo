@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' exact element={<Home />}/>
+        <Route path='/ReactTodo' exact element={<Home />}/>
         <Route path='*' element={<Error404 />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/logout' element={<Logout />}/>
